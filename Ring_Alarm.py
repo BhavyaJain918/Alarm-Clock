@@ -13,7 +13,7 @@ try:
 except mysql.connector.errors.DatabaseError:
      sys.exit()
 
-snd = "C:\\Users\\Bhavya Jain\\Music\\Alarm.wav"
+snd = ""    # Path of the audio file you want to play
 
 def check_alarm():
         alarm_set = set()
